@@ -6,7 +6,7 @@ from sort import *
 
 cap = cv2.VideoCapture("../Videos/cars.mp4")
 
-model = YOLO("weights/yolov8n.pt")
+model = YOLO("../weights/yolov8n.pt")
 
 mask = cv2.imread("mask.jpeg")
 
