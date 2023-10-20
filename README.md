@@ -40,7 +40,7 @@ Run the following command to start object detection on a sample image:
 
 Run the following command to start object detection using your webcam:
 
-``bash
+```bash
  cd Chapter_YOLO_Webcam && python3 yolo_webcam.py 
 ```
 
